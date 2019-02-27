@@ -47,3 +47,14 @@
 .active {
   color: $mainBlue;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    grid-template-columns: none;
+  }
+
+  .navbar-logo-link {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
